@@ -21,8 +21,14 @@ public class WriteDataToServerThread extends Thread{
             OutputStreamWriter writer = new OutputStreamWriter(clientOutput);
 
             Scanner scanner = new Scanner(System.in);
+            System.out.println("帮助");
+            System.out.println("注册： userName: ***");
+            System.out.println("私聊： private: name:  message");
+            System.out.println("群聊： group: message");
+            System.out.println("退出： bye");
             while (true){
                 System.out.println("请输入消息：");
+
                 String message = scanner.nextLine();
 
                 //往服务器发送数据

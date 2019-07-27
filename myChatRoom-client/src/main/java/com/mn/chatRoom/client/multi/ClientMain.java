@@ -6,7 +6,7 @@ import java.net.Socket;
 public class ClientMain {
     public static void main(String[] args) {
         try {
-            int port = 9999;
+            int port = 5678;
             if (args.length > 0) {
                 try {
                     port = Integer.parseInt(args[0]);

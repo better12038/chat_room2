@@ -1,4 +1,4 @@
 .idea/
 myChatRoom.iml
 myChatRoom-client/target/
-myChatRoom-sergiver/target/
+myChatRoom-server/target/
